@@ -21,7 +21,7 @@ body {
 	background-size: fill;
 	background-repeat: repeat;
 	background-attachment: local;
-	animation: nature 120s linear infinite forwards running;
+	animation: nature 80s 5s linear infinite forwards running;
 }
 @keyframes nature {
 	0%, 100% {
