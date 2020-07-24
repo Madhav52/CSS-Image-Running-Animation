@@ -1,0 +1,33 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+    background-color: #f2f3f4;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+.nature {
+	width: 100%;
+	position: relative;
+    display: block;
+	text-align: center;
+	font-size: 12rem;
+	margin-top: 8rem;
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-image: url(bg.jpg);
+	background-size: fill;
+	background-repeat: repeat;
+	background-attachment: local;
+	animation: nature 120s linear infinite forwards running;
+}
+@keyframes nature {
+	0%, 100% {
+		background-position: 0%;	
+	}
+	50% {
+		background-position: 100%;	
+	}
+}
